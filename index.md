@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Gooooooooooooooood Morning EVERYONE
 
 You FUCKED UP [editor on GitHub](https://github.com/laughtree/web/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
