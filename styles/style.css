@@ -11,12 +11,10 @@ body {
     background-color: bisque;
     border: 5px solid #916d2b;
 }
-.menu {
-    width: 20%;
-    float: left;
-    padding: 10px;
-    border:  1px solid brown;
-    
+.pic {
+    width: 80%;
+    margin: auto;
+    opacity: 70%;
 }
 p {
     text-align: left;
@@ -26,7 +24,11 @@ p {
     font-size: 18px;
     letter-spacing: 1px;
 }
-h1 {
+.title {
+    position: absolute;
+    font-weight: bold;
+    top: 450;
+    right: 700;
     padding: 10px,0;
     text-align:center;
     color: darkturquoise ;
@@ -38,13 +40,55 @@ h2 {
 }
 img {
     align-items: center
-    margin: 0;
+    margin: auto;
     display: block
 }
 a:link {
     color: #da72c4;
 }
 .subtitle {
+    position: absolute;
+    top: 550;
+    right: 850;
     text-align: center;
-    color:chocolate; 
+    color: aquamarine; 
+}
+.head {
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 15;
+}
+.line {
+    position: absolute;
+    top: 570;
+}
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: cadetblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+ol.topmenu > li{
+    float: left;
+    background-color: cadetblue;
+    width: 250px;
+    text-align: center;
+}
+ol.topmenu > li:hover{
+    background-color: #5f9e8a;
+}
+ul.downmenu {
+    display: none;
+}
+ol.topmenu > li:hover ul.downmenu{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: darkcyan; 
+}
+ul.downmenu > li:hover{
+    background-color: #009e8b;
 }
