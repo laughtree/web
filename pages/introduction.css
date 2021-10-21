@@ -16,4 +16,12 @@ body {
 h1 {
     color: brown;
     font-size: 65px;
+    text-align: center;
+}
+h2 {
+    color: chocolate;
+    font-size: 36px;
+}
+p {
+    font-size: 20px;
 }
