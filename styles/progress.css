@@ -4,14 +4,14 @@ html {
     background-color: cornsilk;
 }
 body {
-    background-color:powderblue;
+    background-color:floralwhite;
     width: 1280;
     padding: 0 20px 20px 20px;
     margin: 0 auto;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-right-color: navajowhite;
-    border-left-color: navajowhite;
+    border-right-style: double;
+    border-left-style: double;
+    border-right-color: aliceblue;
+    border-left-color: aliceblue;
 }
 h1 {
     color: brown;
@@ -29,7 +29,20 @@ p {
     color: cornflowerblue;
     text-decoration: none;
 }
-.bot {
-    text-decoration: none;
-    color: crimson;
+.hole {
+    list-style: disc;
+    font-size: 20px;
+    color: darkslateblue;
+}
+.dead {
+    color: red;
+}
+.alive {
+    color: green;
+}
+.pause {
+    color: rosybrown;
+}
+.done {
+    color: cornflowerblue;
 }
