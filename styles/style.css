@@ -26,13 +26,13 @@ p {
     letter-spacing: 1px;
 }
 .title {
-    position: absolute;
+    //position: absolute;
     font-weight: bold;
-    top: 450;
-    right: 700;
+    //top: 450;
+    //right: 700;
     padding: 10px,0;
     text-align:center;
-    color: darkturquoise ;
+    color:darkred;
     font-size: 120px;
     text-shadow: 3px 3px 1px black;
 }
@@ -63,7 +63,7 @@ a:link {
     width: 100%;
     margin-top: 15;
 }
-.line {
+//.line {
     position: absolute;
     top: 570;
 }

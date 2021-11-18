@@ -1,0 +1,40 @@
+html {
+    @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: cornsilk;
+}
+body {
+    background-color:powderblue;
+    width: 1280;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: navajowhite;
+    border-left-color: navajowhite;
+}
+h1 {
+    color: brown;
+    font-size: 65px;
+    text-align: center;
+}
+h2 {
+    color: chocolate;
+    font-size: 36px;
+}
+p {
+    font-size: 20px;
+}
+.back {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.bot {
+    text-decoration: none;
+    color: crimson;
+}
+IFrame{
+    position: absolute;
+    top: 320;
+    left: 320
+}
